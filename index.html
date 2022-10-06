@@ -3,20 +3,93 @@
     <head>
         <title>Luna's Website</title>
     </head>
+    <style>
+        body {
+            background: rgba(139, 233, 233, 0.582);
+            color: rgb(11, 12, 12);
+            padding: 10px;
+            font-family: arial;
+        }
+        #all-contents {
+          max-width: 800px;
+            margin: auto;
+        }
+     
+        /* navigation menu */
+        nav {
+            background: rgb(160, 112, 48);
+           margin: 0 auto;
+            display: flex;
+            padding: 10px;
+        }
+        h1 {
+            display: flex;
+            align-items: center;
+            color: rgb(255, 253, 253);
+            flex: 1;
+            margin: 0;
+        }
+        #nav-ul {
+            list-style-image: none;
+        }
+        .nav-li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+     
+        /* main container area beneath menu */
+        main {
+            background: rgb(245, 237, 212);
+            display: flex;
+        }
+        .sidebar {
+            margin-right: 25px;
+            padding: 10px;
+        }
+        .sidebar-img {
+            width: 200px;
+        }
+        .content {
+            flex: 1;
+            padding: 15px;
+        }
+        #interests {
+            border: 4px rgb(72, 123, 153) ridge;
+            padding: 8px;
+        }
+        h2, h3 {
+            margin: 0px;
+        }
+     </style>
     <body>
         <nav>
+            <h1> Luna </h1>
+            
 
         </nav>
         <main>
-
-            <div>
-                luna trejo
+            <div class='sidebar'>
+                <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp5VRPLIEGS1yl_1BU_XuKF2EGSO1LYhuNLg&usqp=CAU'>
             </div>
 
-            <!--interests section-->
+            <div class='content'>
+                <h2>Luna Trejo</h2>
+                <p>Student at IHSNOLA</p>
             <div>
-                <img src=""
+                <p>interests</p>
+                <ul>
+                        <li>friendly</li>
+                        <li>humble</li>
+                        <li>crazy</li>
+                    </ul>
+                </div>
             </div>
         </main>
+
+        
     </body>
 </html>
